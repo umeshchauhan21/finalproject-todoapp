@@ -1,0 +1,11 @@
+name: workflow
+on:
+  push:
+    branchs:
+      - 'features/*'
+      - 'main'
+Jobs:
+  myfirstjob:
+  - steps:
+    echo "my first jobs"
+     
